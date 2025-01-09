@@ -5,7 +5,7 @@ export default function Header() {
         <header id="main-header">
             <div id="title">
                 <img src={logoImg} alt="A restaurant logo" />
-                <h1>FoodOrder</h1>
+                <h1>Food|Order</h1>
             </div>
             <nav>
                 <button>Cart (0)</button>
