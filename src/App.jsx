@@ -1,13 +1,18 @@
 import Header from "./components/Header";
 import Meels from "./components/Meels";
+import Cart from "./components/UI/Cart";
 import { CartContextProvider } from "./store/CardContext";
+import { UserProgressContextProvider } from "./store/UserProgressContext";
 
 function App() {
   return (
-    <CartContextProvider>
-      <Header />
-      <Meels />
-    </CartContextProvider>
+    <UserProgressContextProvider>
+      <CartContextProvider>
+        <Header />
+        <Meels />
+        <Cart />
+      </CartContextProvider>
+    </UserProgressContextProvider>
   );
 }
 
