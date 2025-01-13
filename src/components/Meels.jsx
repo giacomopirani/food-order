@@ -1,6 +1,6 @@
 import useHttp from "../hooks/useHttp.js";
 import Error from "./Error.jsx";
-import MealItem from "./MealItem";
+import MealItem from "./MealItem.jsx";
 
 const requestConfig = {};
 
