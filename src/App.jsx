@@ -1,8 +1,9 @@
-import Header from "./components/Header";
-import Meels from "./components/Meels";
-import Cart from "./components/UI/Cart";
-import { CartContextProvider } from "./store/CardContext";
-import { UserProgressContextProvider } from "./store/UserProgressContext";
+import Cart from "./components/Cart.jsx";
+import Checkout from "./components/Checkout.jsx";
+import Header from "./components/Header.jsx";
+import Meels from "./components/Meels.jsx";
+import { CartContextProvider } from "./store/CardContext.jsx";
+import { UserProgressContextProvider } from "./store/UserProgressContext.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <Meels />
         <Cart />
+        <Checkout />
       </CartContextProvider>
     </UserProgressContextProvider>
   );

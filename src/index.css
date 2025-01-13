@@ -129,7 +129,7 @@ h1 {
 
 .modal-actions .text-button:hover,
 .modal-actions .text-button:active {
-  color: #312c1d;
+  color: #c89900;
 }
 
 .cart-total {
@@ -174,8 +174,8 @@ h1 {
 
 .cart-item-actions button:hover,
 .cart-item-actions button:active {
-  background-color: #1d1a16;
-  color: #ffab04;
+  background-color: #67533a;
+  color: #d1b31e;
 }
 
 .control {
@@ -216,8 +216,7 @@ h1 {
 
 .button:hover,
 .button:active {
-  background-color: #ffab04;
-  border-color: #ffab04;
+  background-color: #d79300;
   color: #1f1a09;
 }
 
